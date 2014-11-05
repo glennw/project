@@ -1,0 +1,12 @@
+[root]
+name = "project"
+version = "0.0.1"
+dependencies = [
+ "featureA 0.0.1 (git+https://github.com/glennw/featureA)",
+]
+
+[[package]]
+name = "featureA"
+version = "0.0.1"
+source = "git+https://github.com/glennw/featureA#c606c23eeac129ba467dc66f67d4d2d089ff49e1"
+

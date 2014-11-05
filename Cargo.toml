@@ -1,0 +1,16 @@
+[package]
+
+name = "project"
+version = "0.0.1"
+authors = [""]
+
+[features]
+default = ["featureA"]
+
+[dependencies.featureA]
+git = "https://github.com/glennw/featureA"
+optional = true
+
+[dependencies.featureB]
+git = "https://github.com/glennw/featureB"
+optional = true
